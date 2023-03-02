@@ -11,7 +11,7 @@ class HSI:
     def __init__(
         self,
         name: str,
-        data_dir: str = "./Unmixing_Tutorial_IEEE_IADF/datasets/",
+        data_dir: str = "./Mineral/datasets/",
     ):
         path = os.path.join(data_dir, name)
         assert os.path.isfile(path)
